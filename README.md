@@ -1,24 +1,18 @@
-# README
+![OneExchangeLogo](img/one-exhcange-logo.png)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**One Exchange**
+===================
+One Exchange is an application that convert currency.
 
-Things you may want to cover:
+It's a first app to a [One Bit Code Bootcamp](http://onebitcode.com/) and a so cool!
 
-* Ruby version
+### Technologies used
+- Ruby 2.3.3
+- Rails 5.0.1
+- PostgreSQL
+- Docker
+- Docker Compose
+- Codeship
+- Heroku
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## On development :)
