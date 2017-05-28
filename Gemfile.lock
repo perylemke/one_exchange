@@ -71,6 +71,8 @@ GEM
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.9.18)
+    font-awesome-rails (4.7.0.2)
+      railties (>= 3.2, < 5.2)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
     http-cookie (1.0.3)
@@ -98,7 +100,7 @@ GEM
     minitest (5.10.2)
     multi_json (1.12.1)
     netrc (0.11.0)
-    nio4r (2.0.0)
+    nio4r (2.1.0)
     nokogiri (1.7.2)
       mini_portile2 (~> 2.1.0)
     pg (0.20.0)
@@ -207,6 +209,7 @@ DEPENDENCIES
   byebug
   capybara
   coffee-rails (~> 4.2)
+  font-awesome-rails
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
