@@ -9,6 +9,7 @@ It's a first app to a [One Bit Code Bootcamp](http://onebitcode.com/) and a so c
 ### Technologies used
 - Ruby 2.3.3
 - Rails 5.0.1
+- CoffeeScript
 - PostgreSQL
 - Docker
 - Docker Compose
