@@ -1,6 +1,6 @@
 ![OneExchangeLogo](img/one-exhcange-logo.png)
 
-**One Exchange**
+**One Exchange aka Pery Exchange**
 ===================
 One Exchange is an application that convert currency.
 
@@ -15,4 +15,19 @@ It's a first app to a [One Bit Code Bootcamp](http://onebitcode.com/) and a so c
 - Codeship
 - Heroku
 
-## On development :)
+## Run with Docker
+```
+git clone https://github.com/perylemke/one_exchange.git
+docker-compose build
+docker-compose run --rm website rake db:create db:migrate
+docker-compose up
+```
+
+## Run in Production
+
+[Pery Exchange](http://pery-exchange.herokuapp.com/)
+
+## Run tests
+```
+docker-compose run --rm website rspec
+```
